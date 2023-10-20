@@ -1,0 +1,103 @@
+/* Remove Browser styles */
+# {
+    margin:0;
+    padding: 0;
+    font-family: Century Gothic;
+}
+
+.banner{
+   min-height:100vh;
+   width: 190vh;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("psgr\ bgimag.jpeg");
+    background-size: cover;
+    background-position: center ;
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding:5px 20px;
+    border: 1px solid transparent;
+
+}
+
+ul li a:hover{
+    background-color: #fff;
+    color:hsla(60, 4%, 5%, 0.847)
+}
+
+ul li.active a{
+    background-color: #fff;
+    color:#000;
+}
+.title{
+    position:absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+}
+
+.title{
+    color:hsl(50, 95%, 54%);
+    font-size: 30px;
+    font-style: italic;
+    font-family: 'Lucida Sans';
+}
+
+button{
+    font-size: 30px;
+    font-family: times;
+    background-color: #c8f70af1;
+    box-shadow: #0d0808;
+    border-radius: 15%;
+    b
+}
+
+.last h1{
+    font-size: 50px;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma;
+    color: #050505;
+    margin-bottom: 50px;
+}
+
+.last h3{
+    font-size: 100%;
+    font-style: italic;
+    font-family: 'Lucida Sans';
+    color: #121107f6;
+    margin-bottom: 50px;
+    display: inline-block;
+}
+
+.book h1{
+    font-size: 200%;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma;
+    color: #121107f6;
+    margin-bottom: 50px;
+}
+
+.book h3{
+    font-size: 100%;
+    font-style: italic;
+    font-family: 'Lucida Sans';
+    color: #121107f6;
+    margin-bottom: 50px;
+    display: inline-block;
+}
+    
+}
+
+
+
+}
